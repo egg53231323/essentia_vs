@@ -1,0 +1,1866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\algorithms">
+      <UniqueIdentifier>{c6653c60-92d6-433b-bc41-ee42dcee87c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\complex">
+      <UniqueIdentifier>{0decc7c7-7287-4fc1-aff8-7bbc14a5928c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms">
+      <UniqueIdentifier>{0f9597e0-dcf1-46b5-bc03-1401cf4f2451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\complex">
+      <UniqueIdentifier>{7556b7fa-c9ae-4e3f-bb08-d71d0083fb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\essentia">
+      <UniqueIdentifier>{96cd4860-a4ca-4cd8-8717-500dae0a1c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\essentia">
+      <UniqueIdentifier>{937ce17e-0c50-47cc-a4d6-1e93f0a6beab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\essentia\utils">
+      <UniqueIdentifier>{658fff95-bc80-494d-a0aa-be0422e53d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\essentia\scheduler">
+      <UniqueIdentifier>{9e4b8821-6af6-4dd8-90e4-2d13501e1ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\essentia\streaming">
+      <UniqueIdentifier>{ba12115e-9c8f-40aa-9eec-d90898bb6a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\essentia\utils">
+      <UniqueIdentifier>{92fd6c33-82c8-406a-8f98-eb5093fb58f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\essentia\scheduler">
+      <UniqueIdentifier>{3a3a0713-e8c1-4199-a337-6242795e90da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\essentia\streaming">
+      <UniqueIdentifier>{13be4b0d-8823-459c-a0ed-cedc20a435eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\essentia\streaming\algorithms">
+      <UniqueIdentifier>{b8ef30b1-4c3d-4504-8bf4-4a33a4e780df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\essentia\utils\tnt">
+      <UniqueIdentifier>{6835c8c2-e311-49f6-ae5b-f2e6b4c9f3ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\essentia\streaming\algorithms">
+      <UniqueIdentifier>{048809a5-3de8-46f1-9845-4a9df44edfaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\experimental">
+      <UniqueIdentifier>{56dae87b-21e7-456d-8add-29818dbb5f1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\extractor">
+      <UniqueIdentifier>{be8d9d24-bc32-449e-b126-cb15227ed7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\filters">
+      <UniqueIdentifier>{79770657-3c14-4a26-8f5e-eb0197f8e1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\highlevel">
+      <UniqueIdentifier>{73d8a8dd-511b-44cd-9142-d1275d38fa9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\io">
+      <UniqueIdentifier>{c560a233-0392-4372-bde3-2eb703d4478b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\standard">
+      <UniqueIdentifier>{6ab51926-8b0a-4280-83fc-f2d41951c2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\rhythm">
+      <UniqueIdentifier>{b0972f0c-cb8f-4d00-a111-38a1dcbba4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\sfx">
+      <UniqueIdentifier>{0b18a35d-f861-4633-b86d-82411a69c47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\spectral">
+      <UniqueIdentifier>{0152deac-f8ea-4197-be75-3cf5d3a15197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\stats">
+      <UniqueIdentifier>{4bd52a50-751f-4450-a5dc-a0b879d33e70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\synthesis">
+      <UniqueIdentifier>{86df81e6-24a2-4bc8-a1ea-b1d12461e7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\temporal">
+      <UniqueIdentifier>{26871b5d-ad56-4f2d-b4ab-e7f227cbb889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\algorithms\tonal">
+      <UniqueIdentifier>{c6a1a437-5e44-44d5-87a9-b7af231a8341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\experimental">
+      <UniqueIdentifier>{cf6238d0-cfe6-4ed8-874e-9569c4b1e1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\extractor">
+      <UniqueIdentifier>{81d8f109-c34c-4c75-8532-05d5425237ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\filters">
+      <UniqueIdentifier>{ad83f32e-d5fe-45e3-8c0a-a124920a3395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\highlevel">
+      <UniqueIdentifier>{0b538406-06e1-4082-b5fe-18006e83f7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\io">
+      <UniqueIdentifier>{9ec1eee0-1d67-4fa4-8fa1-7c2b50c84e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\rhythm">
+      <UniqueIdentifier>{462b66f9-4967-49e6-b0c4-fb91d381b537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\sfx">
+      <UniqueIdentifier>{693c8b44-c709-4b99-ae1b-b1877b3cb342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\spectral">
+      <UniqueIdentifier>{2ed4aa21-accf-4588-9df9-865818688896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\standard">
+      <UniqueIdentifier>{c7ca5ece-c2e5-417c-924e-69f5a3c6f648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\stats">
+      <UniqueIdentifier>{37dfbb0d-b332-4da3-87b2-c4d4cb933ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\synthesis">
+      <UniqueIdentifier>{a4151e55-c2e2-4884-bb03-75ba8959a7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\temporal">
+      <UniqueIdentifier>{0411e2dc-fb3a-4bd9-9e8c-a5ac02ae7d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\algorithms\tonal">
+      <UniqueIdentifier>{1a44671c-2c0d-491e-898c-d3e79ecd0ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\3rdparty">
+      <UniqueIdentifier>{59d1ffc2-acb7-45e9-a913-ab9c86bed939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\3rdparty\spline">
+      <UniqueIdentifier>{a06a0b71-1d31-441d-a4da-e9e5d888e274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3rdparty">
+      <UniqueIdentifier>{c6a74584-06ac-403a-887a-89b49c82ea0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3rdparty\spline">
+      <UniqueIdentifier>{62d343d5-1770-4e2c-90f8-c59fe856ab65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\3rdparty\kiss_fft130">
+      <UniqueIdentifier>{69ccebff-2157-4602-a764-0ad2987a93d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3rdparty\kiss_fft130">
+      <UniqueIdentifier>{c0f7e871-aaf1-45b4-b103-a6c1fd2fcb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3rdparty\kiss_fft130\tools">
+      <UniqueIdentifier>{88823bc4-14ae-4f31-9682-94323e9e3acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\3rdparty\kiss_fft130\tools">
+      <UniqueIdentifier>{b995ae72-7e9f-4336-80f2-bd9a27b3b0c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\complex\cartesiantopolar.h">
+      <Filter>头文件\algorithms\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\complex\magnitude.h">
+      <Filter>头文件\algorithms\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\complex\polartocartesian.h">
+      <Filter>头文件\algorithms\complex</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\scheduler\graphutils.h">
+      <Filter>头文件\essentia\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\scheduler\network.h">
+      <Filter>头文件\essentia\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\scheduler\networkparser.h">
+      <Filter>头文件\essentia\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\streamingalgorithmwrapper.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\streamingalgorithmcomposite.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\streamingalgorithm.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\sourceproxy.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\sourcebase.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\source.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\sinkproxy.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\sinkbase.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\sink.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\phantombuffer_impl.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\phantombuffer.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\multiratebuffer.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\accumulatoralgorithm.h">
+      <Filter>头文件\essentia\streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\asciidag.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\asciidagparser.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\atomic.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\audiocontext.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\betools.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\bpfutil.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\bpmutil.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\ffmpegapi.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\jsonconvert.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\MersenneTwister.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\metadatautils.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\output.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\peak.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\ringbufferimpl.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\synth_utils.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\yamlast.h">
+      <Filter>头文件\essentia\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\vectoroutput.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\vectorinput.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\ringbuffervectoroutput.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\ringbufferoutput.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\ringbufferinput.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\poolstorage.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\fileoutput.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\diskwriter.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\devnull.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streaming\algorithms\copy.h">
+      <Filter>头文件\essentia\streaming\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\jama_cholesky.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\jama_eig.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\jama_lu.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\jama_qr.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\jama_svd.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_array1d.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_array1d_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_array2d.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_array2d_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_array3d.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_array3d_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_cmat.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_fortran_array1d.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_fortran_array1d_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_fortran_array2d.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_fortran_array2d_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_fortran_array3d.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_fortran_array3d_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_i_refvec.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_math_utils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_sparse_matrix_csr.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_stopwatch.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_subscript.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_vec.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt_version.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt2essentiautils.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\utils\tnt\tnt2vector.h">
+      <Filter>头文件\essentia\utils\tnt</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\algorithm.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\algorithmfactory.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\algorithmfactory_impl.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\config.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\configurable.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\connector.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\debugging.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\essentia.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\essentiamath.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\essentiautil.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\iotypewrappers.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\iotypewrappers_impl.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\parameter.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\pool.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\range.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\roguevector.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streamconnector.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\streamutil.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\stringutil.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\threading.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="essentia\types.h">
+      <Filter>头文件\essentia</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\experimental\beatogram.h">
+      <Filter>头文件\algorithms\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\experimental\meter.h">
+      <Filter>头文件\algorithms\experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\barkextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\extractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\keyextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\levelextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\lowlevelspectraleqloudextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\lowlevelspectralextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\rhythmdescriptors.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\tonalextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\extractor\tuningfrequencyextractor.h">
+      <Filter>头文件\algorithms\extractor</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\allpass.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\bandpass.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\bandreject.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\dcremoval.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\equalloudness.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\highpass.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\iir.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\lowpass.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\filters\movingaverage.h">
+      <Filter>头文件\algorithms\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\highlevel\danceability.h">
+      <Filter>头文件\algorithms\highlevel</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\highlevel\dynamiccomplexity.h">
+      <Filter>头文件\algorithms\highlevel</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\highlevel\fadedetection.h">
+      <Filter>头文件\algorithms\highlevel</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\highlevel\intensity.h">
+      <Filter>头文件\algorithms\highlevel</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\highlevel\pca.h">
+      <Filter>头文件\algorithms\highlevel</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\highlevel\sbic.h">
+      <Filter>头文件\algorithms\highlevel</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\audioloader.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\audioonsetsmarker.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\audiowriter.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\easyloader.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\eqloudloader.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\fileoutputproxy.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\metadatareader.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\monoloader.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\monowriter.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\yamlinput.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\io\yamloutput.h">
+      <Filter>头文件\algorithms\io</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\beatsloudness.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\beattrackerdegara.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\beattrackermultifeature.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\bpmhistogram.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\bpmhistogramdescriptors.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\bpmrubato.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\harmonicbpm.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\loopbpmconfidence.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\loopbpmestimator.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\noveltycurve.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\noveltycurvefixedbpmestimator.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\onsetdetection.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\onsetdetectionglobal.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\onsetrate.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\onsets.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\percivalbpmestimator.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\percivalenhanceharmonics.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\percivalevaluatepulsetrains.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\rhythmextractor.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\rhythmextractor2013.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\rhythmtransform.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\singlebeatloudness.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\superfluxextractor.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\superfluxnovelty.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\superfluxpeaks.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\temposcalebands.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\tempotap.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\tempotapdegara.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\tempotapmaxagreement.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\rhythm\tempotapticks.h">
+      <Filter>头文件\algorithms\rhythm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\aftermaxtobeforemaxenergyratio.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\derivativesfx.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\flatnesssfx.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\logattacktime.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\maxtototal.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\mintototal.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\pitchsalience.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\strongdecay.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\sfx\tctototal.h">
+      <Filter>头文件\algorithms\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\barkbands.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\energyband.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\energybandratio.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\erbbands.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\flatnessdb.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\flux.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\frequencybands.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\gfcc.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\hfc.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\hpcp.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\maxmagfreq.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\melbands.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\mfcc.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\panning.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\rolloff.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\spectralcentroidtime.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\spectralcomplexity.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\spectralcontrast.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\spectralpeaks.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\spectralwhitening.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\strongpeak.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\spectral\triangularbands.h">
+      <Filter>头文件\algorithms\spectral</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\autocorrelation.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\binaryoperator.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\binaryoperatorstream.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\bpf.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\chromagram.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\clipper.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\constantq.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\crosscorrelation.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\cubicspline.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\dct.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\derivative.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\envelope.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\fftk.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\fftw.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\fftwcomplex.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\framecutter.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\frametoreal.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\ifftk.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\ifftw.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\maxfilter.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\monomixer.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\multiplexer.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\noiseadder.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\overlapadd.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\peakdetection.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\powerspectrum.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\realaccumulator.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\replaygain.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\resample.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\scale.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\silencerate.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\slicer.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\spectrum.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\spline.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\startstopsilence.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\stereodemuxer.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\trimmer.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\unaryoperator.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\unaryoperatorstream.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\vectorrealaccumulator.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\warpedautocorrelation.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\standard\windowing.h">
+      <Filter>头文件\algorithms\standard</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\centralmoments.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\centroid.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\crest.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\decrease.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\distributionshape.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\energy.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\entropy.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\flatness.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\geometricmean.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\instantpower.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\mean.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\median.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\poolaggregator.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\powermean.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\rawmoments.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\rms.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\singlegaussian.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\stats\variance.h">
+      <Filter>头文件\algorithms\stats</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\harmonicmask.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\harmonicmodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\hprmodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\hpsmodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\resamplefft.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\sinemodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\sinemodelsynth.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\sinesubtraction.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\sprmodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\sprmodelsynth.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\spsmodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\spsmodelsynth.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\stochasticmodelanal.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\synthesis\stochasticmodelsynth.h">
+      <Filter>头文件\algorithms\synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\duration.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\effectiveduration.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\larm.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\leq.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\loudness.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\loudnessebur128.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\loudnessebur128filter.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\loudnessvickers.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\lpc.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\temporal\zerocrossingrate.h">
+      <Filter>头文件\algorithms\temporal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\chordsdescriptors.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\chordsdetection.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\chordsdetectionbeats.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\dissonance.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\harmonicpeaks.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\highresolutionfeatures.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\inharmonicity.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\key.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\multipitchklapuri.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\multipitchmelodia.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\oddtoevenharmonicenergyratio.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchcontours.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchcontoursegmentation.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchcontoursmelody.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchcontoursmonomelody.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchcontoursmultimelody.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchfilter.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchmelodia.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchsaliencefunction.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchsaliencefunctionpeaks.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchyin.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\pitchyinfft.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\predominantpitchmelodia.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\tonicindianartmusic.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\tristimulus.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\tuningfrequency.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\tonal\vibrato.h">
+      <Filter>头文件\algorithms\tonal</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\spline\splineutil.h">
+      <Filter>头文件\3rdparty\spline</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\kissfft.hh">
+      <Filter>头文件\3rdparty\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\_kiss_fft_guts.h">
+      <Filter>头文件\3rdparty\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\kiss_fft.h">
+      <Filter>头文件\3rdparty\kiss_fft130</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\tools\kfc.h">
+      <Filter>头文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\tools\kiss_fftnd.h">
+      <Filter>头文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\tools\kiss_fftndr.h">
+      <Filter>头文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="3rdparty\kiss_fft130\tools\kiss_fftr.h">
+      <Filter>头文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\complex\cartesiantopolar.cpp">
+      <Filter>源文件\algorithms\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\complex\magnitude.cpp">
+      <Filter>源文件\algorithms\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\complex\polartocartesian.cpp">
+      <Filter>源文件\algorithms\complex</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\scheduler\network.cpp">
+      <Filter>源文件\essentia\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\scheduler\networkparser.cpp">
+      <Filter>源文件\essentia\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\accumulatoralgorithm.cpp">
+      <Filter>源文件\essentia\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\sinkbase.cpp">
+      <Filter>源文件\essentia\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\sourcebase.cpp">
+      <Filter>源文件\essentia\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\streamingalgorithm.cpp">
+      <Filter>源文件\essentia\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\streamingalgorithmcomposite.cpp">
+      <Filter>源文件\essentia\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\streamingalgorithmwrapper.cpp">
+      <Filter>源文件\essentia\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\algorithms\devnull.cpp">
+      <Filter>源文件\essentia\streaming\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\algorithms\poolstorage.cpp">
+      <Filter>源文件\essentia\streaming\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\algorithms\ringbufferinput.cpp">
+      <Filter>源文件\essentia\streaming\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\algorithms\ringbufferoutput.cpp">
+      <Filter>源文件\essentia\streaming\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\streaming\algorithms\ringbuffervectoroutput.cpp">
+      <Filter>源文件\essentia\streaming\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\utils\asciidag.cpp">
+      <Filter>源文件\essentia\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\utils\asciidagparser.cpp">
+      <Filter>源文件\essentia\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\utils\audiocontext.cpp">
+      <Filter>源文件\essentia\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\utils\jsonconvert.cpp">
+      <Filter>源文件\essentia\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\utils\synth_utils.cpp">
+      <Filter>源文件\essentia\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\utils\yamlast.cpp">
+      <Filter>源文件\essentia\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\algorithm.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\configurable.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\connector.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\debugging.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\essentia.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\essentiautil.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\parameter.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\pool.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\range.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="essentia\stringutil.cpp">
+      <Filter>源文件\essentia</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\experimental\beatogram.cpp">
+      <Filter>源文件\algorithms\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\experimental\meter.cpp">
+      <Filter>源文件\algorithms\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\barkextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\extractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\keyextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\levelextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\lowlevelspectraleqloudextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\lowlevelspectralextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\rhythmdescriptors.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\tonalextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\extractor\tuningfrequencyextractor.cpp">
+      <Filter>源文件\algorithms\extractor</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\allpass.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\bandpass.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\bandreject.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\dcremoval.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\equalloudness.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\highpass.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\iir.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\lowpass.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\filters\movingaverage.cpp">
+      <Filter>源文件\algorithms\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\highlevel\danceability.cpp">
+      <Filter>源文件\algorithms\highlevel</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\highlevel\dynamiccomplexity.cpp">
+      <Filter>源文件\algorithms\highlevel</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\highlevel\fadedetection.cpp">
+      <Filter>源文件\algorithms\highlevel</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\highlevel\intensity.cpp">
+      <Filter>源文件\algorithms\highlevel</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\highlevel\pca.cpp">
+      <Filter>源文件\algorithms\highlevel</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\highlevel\sbic.cpp">
+      <Filter>源文件\algorithms\highlevel</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\audioloader.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\audioonsetsmarker.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\audiowriter.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\easyloader.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\eqloudloader.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\fileoutputproxy.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\metadatareader.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\monoloader.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\monowriter.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\yamlinput.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\io\yamloutput.cpp">
+      <Filter>源文件\algorithms\io</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\beatsloudness.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\beattrackerdegara.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\beattrackermultifeature.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\bpmhistogram.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\bpmhistogramdescriptors.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\bpmrubato.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\harmonicbpm.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\loopbpmconfidence.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\loopbpmestimator.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\noveltycurve.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\noveltycurvefixedbpmestimator.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\onsetdetection.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\onsetdetectionglobal.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\onsetrate.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\onsets.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\percivalbpmestimator.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\percivalenhanceharmonics.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\percivalevaluatepulsetrains.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\rhythmextractor.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\rhythmextractor2013.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\rhythmtransform.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\singlebeatloudness.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\superfluxextractor.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\superfluxnovelty.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\superfluxpeaks.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\temposcalebands.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\tempotap.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\tempotapdegara.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\tempotapmaxagreement.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\rhythm\tempotapticks.cpp">
+      <Filter>源文件\algorithms\rhythm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\aftermaxtobeforemaxenergyratio.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\derivativesfx.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\flatnesssfx.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\logattacktime.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\maxtototal.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\mintototal.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\pitchsalience.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\strongdecay.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\sfx\tctototal.cpp">
+      <Filter>源文件\algorithms\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\barkbands.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\energyband.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\energybandratio.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\erbbands.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\flatnessdb.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\flux.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\frequencybands.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\gfcc.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\hfc.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\hpcp.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\maxmagfreq.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\melbands.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\mfcc.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\panning.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\rolloff.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\spectralcentroidtime.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\spectralcomplexity.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\spectralcontrast.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\spectralpeaks.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\spectralwhitening.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\strongpeak.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\spectral\triangularbands.cpp">
+      <Filter>源文件\algorithms\spectral</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\autocorrelation.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\binaryoperator.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\binaryoperatorstream.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\bpf.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\chromagram.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\clipper.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\constantq.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\crosscorrelation.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\cubicspline.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\dct.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\derivative.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\envelope.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\fftk.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\fftw.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\fftwcomplex.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\framecutter.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\frametoreal.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\ifftk.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\ifftw.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\maxfilter.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\monomixer.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\multiplexer.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\noiseadder.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\overlapadd.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\peakdetection.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\powerspectrum.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\realaccumulator.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\replaygain.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\resample.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\scale.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\silencerate.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\slicer.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\spectrum.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\spline.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\startstopsilence.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\stereodemuxer.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\trimmer.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\unaryoperator.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\unaryoperatorstream.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\vectorrealaccumulator.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\warpedautocorrelation.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\standard\windowing.cpp">
+      <Filter>源文件\algorithms\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\centralmoments.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\centroid.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\crest.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\decrease.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\distributionshape.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\energy.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\entropy.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\flatness.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\geometricmean.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\instantpower.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\mean.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\median.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\poolaggregator.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\powermean.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\rawmoments.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\rms.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\singlegaussian.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\stats\variance.cpp">
+      <Filter>源文件\algorithms\stats</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\harmonicmask.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\harmonicmodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\hprmodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\hpsmodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\resamplefft.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\sinemodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\sinemodelsynth.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\sinesubtraction.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\sprmodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\sprmodelsynth.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\spsmodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\spsmodelsynth.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\stochasticmodelanal.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\synthesis\stochasticmodelsynth.cpp">
+      <Filter>源文件\algorithms\synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\duration.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\effectiveduration.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\larm.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\leq.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\loudness.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\loudnessebur128.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\loudnessebur128filter.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\loudnessvickers.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\lpc.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\temporal\zerocrossingrate.cpp">
+      <Filter>源文件\algorithms\temporal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\chordsdescriptors.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\chordsdetection.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\chordsdetectionbeats.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\dissonance.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\harmonicpeaks.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\highresolutionfeatures.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\inharmonicity.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\key.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\multipitchklapuri.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\multipitchmelodia.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\oddtoevenharmonicenergyratio.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchcontours.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchcontoursegmentation.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchcontoursmelody.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchcontoursmonomelody.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchcontoursmultimelody.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchfilter.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchmelodia.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchsaliencefunction.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchsaliencefunctionpeaks.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchyin.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\pitchyinfft.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\predominantpitchmelodia.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\tonicindianartmusic.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\tristimulus.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\tuningfrequency.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\tonal\vibrato.cpp">
+      <Filter>源文件\algorithms\tonal</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\spline\splineutil.cpp">
+      <Filter>源文件\3rdparty\spline</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\kiss_fft130\kiss_fft.c">
+      <Filter>源文件\3rdparty\kiss_fft130</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\kiss_fft130\tools\kfc.c">
+      <Filter>源文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\kiss_fft130\tools\kiss_fastfir.c">
+      <Filter>源文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\kiss_fft130\tools\kiss_fftnd.c">
+      <Filter>源文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\kiss_fft130\tools\kiss_fftndr.c">
+      <Filter>源文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="3rdparty\kiss_fft130\tools\kiss_fftr.c">
+      <Filter>源文件\3rdparty\kiss_fft130\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithms\essentia_algorithms_reg.cpp">
+      <Filter>源文件\algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
