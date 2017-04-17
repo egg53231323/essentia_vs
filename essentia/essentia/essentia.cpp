@@ -72,6 +72,8 @@ bool isInitialized() {
 
 template<> standard::AlgorithmFactory* standard::AlgorithmFactory::_instance = 0;
 template<> streaming::AlgorithmFactory* streaming::AlgorithmFactory::_instance = 0;
+standard::AlgorithmFactory*& standard::AlgorithmFactory::GetInstancePtrRef() { return _instance; }
+streaming::AlgorithmFactory*& streaming::AlgorithmFactory::GetInstancePtrRef() { return _instance; }
 
 EssentiaMap<string,string> * TypeMap::_typeMap = 0;
 

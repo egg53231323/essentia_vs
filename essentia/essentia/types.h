@@ -73,7 +73,7 @@ typedef float Real;
  * to make it as easy as possible to throw an exception with a descriptive
  * message.
  */
-class EssentiaException : public std::exception {
+class ESSENTIA_API EssentiaException : public std::exception {
 
  public:
   EssentiaException(const char* msg) : exception(), _msg(msg) {}
@@ -264,7 +264,7 @@ inline bool sameType(const std::type_info& t1, const std::type_info& t2) {
 
 
 // defined in src/base/essentia.cpp
-std::string nameOfType(const std::type_info& type);
+ESSENTIA_API std::string nameOfType(const std::type_info& type);
 
 /**
  * Subclasses of this interface have the ability to check their type against

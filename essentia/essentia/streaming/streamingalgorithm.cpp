@@ -25,6 +25,7 @@ namespace streaming {
 
 
 const string Algorithm::processingMode = "Streaming";
+const std::string & Algorithm::GetProcessingMode() { return processingMode; }
 
 // here we check the types as well
 void connect(SourceBase& source, SinkBase& sink) {

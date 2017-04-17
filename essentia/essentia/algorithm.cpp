@@ -25,6 +25,7 @@ namespace essentia {
 namespace standard {
 
 const string Algorithm::processingMode = "Standard ";
+const std::string & Algorithm::GetProcessingMode() { return processingMode; }
 
 InputBase& Algorithm::input(const string& name) {
   try {

@@ -32,7 +32,7 @@ namespace essentia {
 // IMPORTANT:
 // Make sure that each time you change something in this enum, you reflect the
 // same changes in the python bindings, located in src/python/essentia/__init__.py
-enum DebuggingModule {
+enum ESSENTIA_API DebuggingModule {
 
   EAlgorithm   = 1 << 0,
   EConnectors  = 1 << 1,
@@ -59,16 +59,21 @@ const char* debugModuleDescription(DebuggingModule module);
 /**
  * A bitmask representing which debug levels are currently activated.
  */
+// [vs2015 compile modify]
+/*
 extern int activatedDebugLevels;
 
 extern bool infoLevelActive;
 extern bool warningLevelActive;
 extern bool errorLevelActive;
+*/
 
 /**
  * An integer representing the indentation with which to print the debug messages
  */
+ /*
 extern int debugIndentLevel;
+*/
 
 void setDebugLevel(int levels);
 void unsetDebugLevel(int levels);
@@ -102,7 +107,7 @@ void setDebugLevelForTimeIndex(int index);
 /**
  * Asynchronous thread-safe logger object. (TODO: implementation is still not thread-safe)
  */
-class Logger {
+class ESSENTIA_API Logger {
  protected:
   std::deque<std::string> _msgQueue;
   bool _addHeader;
@@ -119,31 +124,41 @@ class Logger {
 
 };
 
+// [vs2015 compile modify]
+/*
 extern Logger loggerInstance;
+*/
+
+// [vs2015 compile modify]
+ESSENTIA_API int& GetActivatedDebugLevels();
+ESSENTIA_API bool& GetWarningLevelActive();
+ESSENTIA_API bool& GetErrorLevelActive();
+ESSENTIA_API int& GetDebugIndentLevel();
+ESSENTIA_API Logger& GetLoggerInstance();
 
 } // namespace essentia
 
 
 #if DEBUGGING_ENABLED
 
-#  define E_DEBUG_INDENT debugIndentLevel++
-#  define E_DEBUG_OUTDENT debugIndentLevel--
+#  define E_DEBUG_INDENT GetDebugIndentLevel()++
+#  define E_DEBUG_OUTDENT GetDebugIndentLevel()--
 
-#  define E_ACTIVE(module) ((module) & activatedDebugLevels)
+#  define E_ACTIVE(module) ((module) & GetActivatedDebugLevels())
 #  define E_STRINGIFY(msg) (Stringifier() << msg).str()
 
 // the if(E_ACTIVE) is an optimization, it is not necessary but avoids sending
 // everything to the Stringifier if the debug level is not activated
-#  define E_DEBUG_NONL(module, msg) if (E_ACTIVE(module)) loggerInstance.debug(module, E_STRINGIFY(msg), false)
-#  define E_DEBUG(module, msg) if (E_ACTIVE(module)) loggerInstance.debug(module, E_STRINGIFY(msg << '\n'), true)
+#  define E_DEBUG_NONL(module, msg) if (E_ACTIVE(module)) GetLoggerInstance().debug(module, E_STRINGIFY(msg), false)
+#  define E_DEBUG(module, msg) if (E_ACTIVE(module)) GetLoggerInstance().debug(module, E_STRINGIFY(msg << '\n'), true)
 
 // NB: the following #define macros only work when used inside one of streaming::Algorithm's methods
 #  define ALGONAME _name << std::string(std::max(15-(int)_name.size(), 0), ' ') << ": "
 #  define EXEC_DEBUG(msg) E_DEBUG(EExecution, ALGONAME << nProcess << " - " << msg)
 
-#  define E_INFO(msg) loggerInstance.info(E_STRINGIFY(msg))
-#  define E_WARNING(msg) loggerInstance.warning(E_STRINGIFY(msg))
-#  define E_ERROR(msg) loggerInstance.error(E_STRINGIFY(msg))
+#  define E_INFO(msg) GetLoggerInstance().info(E_STRINGIFY(msg))
+#  define E_WARNING(msg) GetLoggerInstance().warning(E_STRINGIFY(msg))
+#  define E_ERROR(msg) GetLoggerInstance().error(E_STRINGIFY(msg))
 
 #else // DEBUGGING_ENABLED
 

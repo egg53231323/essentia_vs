@@ -58,18 +58,22 @@ template <typename BaseAlgorithm>
 class ESSENTIA_API EssentiaFactory {
 
   static EssentiaFactory<BaseAlgorithm>* _instance;
+  // [vs2015 compile modify]
+  static EssentiaFactory<BaseAlgorithm>*& GetInstancePtrRef();
 
  public:
 
   static void init() {
-    if (!_instance) {
-      _instance = new EssentiaFactory<BaseAlgorithm>();
+	  // [vs2015 compile modify]
+    if (!GetInstancePtrRef()) {
+		GetInstancePtrRef() = new EssentiaFactory<BaseAlgorithm>();
     }
   }
 
   static void shutdown() {
-    delete _instance;
-    _instance = 0;
+	  // [vs2015 compile modify]
+    delete GetInstancePtrRef();
+	GetInstancePtrRef() = 0;
   }
 
   /**

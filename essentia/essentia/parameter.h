@@ -75,7 +75,7 @@ class ESSENTIA_API Parameter {
  public:
 
   // Constructor for just declaring type (not providing a value)
-  Parameter(ParamType tp) : _type(tp), _configured(false) {}
+  Parameter(ParamType tp = UNDEFINED) : _type(tp), _configured(false) {}
 
   // Constructor for simple parameters
   #define SPECIALIZE_CTOR(valueType, paramType, mName)                         \
@@ -273,7 +273,7 @@ class ESSENTIA_API Parameter {
  * functions for adding new values in it: add() with or without a
  * default value.
  */
-class ParameterMap : public EssentiaMap<std::string, Parameter, string_cmp> {
+class ESSENTIA_API ParameterMap : public EssentiaMap<std::string, Parameter, string_cmp> {
 
  protected:
   typedef EssentiaMap<std::string, Parameter, string_cmp> ParameterMapBase;
@@ -286,9 +286,9 @@ class ParameterMap : public EssentiaMap<std::string, Parameter, string_cmp> {
 
 };
 
-std::ostream& operator<<(std::ostream& out, const Parameter& p);
-std::ostream& operator<<(std::ostream& out, const ParameterMap& m);
-std::ostream& operator<<(std::ostream& out, const Parameter::ParamType& t);
+ESSENTIA_API std::ostream& operator<<(std::ostream& out, const Parameter& p);
+ESSENTIA_API std::ostream& operator<<(std::ostream& out, const ParameterMap& m);
+ESSENTIA_API std::ostream& operator<<(std::ostream& out, const Parameter::ParamType& t);
 
 } // namespace essentia
 

@@ -16,6 +16,20 @@ essentia\stringutil.h
 essentia\utils\jsonconvert.cpp
 algorithms\standard\constantq.cpp
 
+export and link modify
+essentia\essentia\algorithm.cpp
+essentia\essentia\algorithm.h
+essentia\essentia\algorithmfactory.h
+essentia\essentia\algorithmfactory_impl.h
+essentia\essentia\debugging.cpp
+essentia\essentia\debugging.h
+essentia\essentia\essentia.cpp
+essentia\essentia\essentia.h
+essentia\essentia\parameter.h
+essentia\essentia\streaming\streamingalgorithm.cpp
+essentia\essentia\streaming\streamingalgorithm.h
+essentia\essentia\types.h
+
 //////////////////////////////////////////////////////////////////////////
 
 remove files:

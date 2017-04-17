@@ -153,4 +153,11 @@ void Logger::error(const string& msg) {
   flush();
 }
 
+// [vs2015 compile modify]
+int& GetActivatedDebugLevels() { return activatedDebugLevels; }
+bool& GetWarningLevelActive() { return warningLevelActive; }
+bool& GetErrorLevelActive() { return errorLevelActive; }
+int& GetDebugIndentLevel() { return debugIndentLevel; }
+Logger& GetLoggerInstance() { return loggerInstance; }
+
 } // namespace essentia

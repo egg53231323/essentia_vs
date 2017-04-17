@@ -24,10 +24,11 @@ namespace essentia {
 
 template <typename BaseAlgorithm>
 EssentiaFactory<BaseAlgorithm>& EssentiaFactory<BaseAlgorithm>::instance() {
-  if (!_instance) {
+	// [vs2015 compile modify]
+  if (!GetInstancePtrRef()) {
     throw EssentiaException("You haven't initialized the factory yet... Please do it now!");
   }
-  return *_instance;
+  return *GetInstancePtrRef();
 }
 
 template <typename BaseAlgorithm>
@@ -42,7 +43,7 @@ std::vector<std::string> EssentiaFactory<BaseAlgorithm>::keys() {
 
 template <typename BaseAlgorithm>
 BaseAlgorithm* EssentiaFactory<BaseAlgorithm>::create_i(const std::string& id) const {
-  E_DEBUG(EFactory, BaseAlgorithm::processingMode << ": Creating algorithm: " << id);
+  E_DEBUG(EFactory, BaseAlgorithm::GetProcessingMode() << ": Creating algorithm: " << id);
 
   typename CreatorMap::const_iterator it = _map.find(id);
   if (it == _map.end()) {
@@ -74,7 +75,7 @@ BaseAlgorithm* EssentiaFactory<BaseAlgorithm>::create_i(const std::string& id) c
     // default parameters should have been filled by the call to declareParameters
     // from the constructor, so there is no need to make a copy of them, just call
     // arg-less version of configure()
-    E_DEBUG(EFactory, BaseAlgorithm::processingMode << ": Configuring " << id << " with default parameters");
+    E_DEBUG(EFactory, BaseAlgorithm::GetProcessingMode() << ": Configuring " << id << " with default parameters");
     algo->configure();
   }
   catch (EssentiaException& e) {
@@ -92,7 +93,7 @@ BaseAlgorithm* EssentiaFactory<BaseAlgorithm>::create_i(const std::string& id) c
     throw EssentiaException(msg);
   }
 
-  E_DEBUG(EFactory, BaseAlgorithm::processingMode << ": Creating " << id << " ok!");
+  E_DEBUG(EFactory, BaseAlgorithm::GetProcessingMode() << ": Creating " << id << " ok!");
 
   return algo;
 }
@@ -103,7 +104,7 @@ BaseAlgorithm* EssentiaFactory<BaseAlgorithm>::create_i(const std::string& id) c
 #define AP(n) params.add(name##n, value##n);
 
 #define CREATE_I_BEG ) const {                                                                              \
-  E_DEBUG(EFactory, BaseAlgorithm::processingMode << ": Creating algorithm: " << id);                       \
+  E_DEBUG(EFactory, BaseAlgorithm::GetProcessingMode() << ": Creating algorithm: " << id);                       \
   typename CreatorMap::const_iterator it = _map.find(id);                                                   \
   if (it == _map.end()) {                                                                                   \
     std::ostringstream msg;                                                                                 \
@@ -123,9 +124,9 @@ BaseAlgorithm* EssentiaFactory<BaseAlgorithm>::create_i(const std::string& id) c
 
 #define CREATE_I_END                                                                                        \
   algo->setParameters(params);                                                                              \
-  E_DEBUG(EFactory, BaseAlgorithm::processingMode << ": Configuring " << id << " with default parameters"); \
+  E_DEBUG(EFactory, BaseAlgorithm::GetProcessingMode() << ": Configuring " << id << " with default parameters"); \
   algo->configure();                                                                                        \
-  E_DEBUG(EFactory, BaseAlgorithm::processingMode << ": Creating " << id << " ok!");                        \
+  E_DEBUG(EFactory, BaseAlgorithm::GetProcessingMode() << ": Creating " << id << " ok!");                        \
   return algo;                                                                                              \
 }
 

@@ -141,6 +141,8 @@ class ESSENTIA_API Algorithm : public Configurable {
 
  public:
   static const std::string processingMode;
+  // [vs2015 compile modify]
+  static const std::string & GetProcessingMode();
 
   typedef OrderedMap<SinkBase> InputMap;
   typedef OrderedMap<SourceBase> OutputMap;
