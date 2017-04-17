@@ -5,16 +5,32 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "essentia", "essentia\essentia.vcxproj", "{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "essentia_test", "essentia_test\essentia_test.vcxproj", "{03E5D480-9540-4275-95C1-4F7A2B8379F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Debug|x64.ActiveCfg = Debug|x64
+		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Debug|x64.Build.0 = Debug|x64
 		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Debug|x86.ActiveCfg = Debug|Win32
 		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Debug|x86.Build.0 = Debug|Win32
+		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Release|x64.ActiveCfg = Release|x64
+		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Release|x64.Build.0 = Release|x64
 		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Release|x86.ActiveCfg = Release|Win32
 		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}.Release|x86.Build.0 = Release|Win32
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Debug|x64.ActiveCfg = Debug|x64
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Debug|x64.Build.0 = Debug|x64
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Debug|x86.Build.0 = Debug|Win32
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Release|x64.ActiveCfg = Release|x64
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Release|x64.Build.0 = Release|x64
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Release|x86.ActiveCfg = Release|Win32
+		{03E5D480-9540-4275-95C1-4F7A2B8379F1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
