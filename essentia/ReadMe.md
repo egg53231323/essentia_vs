@@ -1,4 +1,4 @@
-#Essentia_VS
+# Essentia_VS
 
 vs2015 project for essentia-2.1_beta3
 
@@ -6,7 +6,7 @@ source: [https://github.com/MTG/essentia](https://github.com/MTG/essentia)
 
 only configure for compile x86
 
-#Modify for compile
+# Modify for compile
 
 essentia/config.h
 
@@ -42,7 +42,7 @@ essentia/essentia/streaming/streamingalgorithm.h
 
 essentia/essentia/types.h
 
-#Remove files
+# Remove files
 
 3rdparty/kiss_fft130/tools/fftutil.c
 
@@ -64,5 +64,5 @@ algorithms/standard/ffta.h
 
 algorithms/standard/ffta.cpp
 
-#Other
+# Other
 use essentia_algorithm_reg.py to generate algorithms/essentia_algorithms_reg.cpp
