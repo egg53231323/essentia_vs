@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "essentia", "essentia\essentia.vcxproj", "{0E668038-FE04-42F4-83DB-82EDE5DBB5F1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "essentia_test", "essentia_test\essentia_test.vcxproj", "{03E5D480-9540-4275-95C1-4F7A2B8379F1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0E668038-FE04-42F4-83DB-82EDE5DBB5F1} = {0E668038-FE04-42F4-83DB-82EDE5DBB5F1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
