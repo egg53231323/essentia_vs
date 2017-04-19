@@ -43,15 +43,6 @@ int save_onsets(const std::string& outputName, const vector<Real>& onsets)
 
 int main(int argc, char* argv[])
 {
-	/*
-	std::string str1 = argv[0];
-	argc = 2;
-	std::string str2 = "D:\\kugou\\kugoudw\\out.wav";
-	argv = new char*[2];
-	argv[0] = (char *)str1.c_str();
-	argv[1] = (char *)str2.c_str();
-	*/
-
 	cout << "Essentia onset detector (weighted Complex and HFC detection functions)" << endl;
 	if (argc != 2) {
 		cout << "Error: wrong number of arguments" << endl;
